@@ -1,0 +1,42 @@
+[
+  {"student_name":"Aarav","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"yes","quiz_score":88,"quiz_date":"2025-11-05","submission_date":"2025-11-06"},
+  {"student_name":"Isha","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"no","quiz_score":74,"quiz_date":"2025-11-06","submission_date":null},
+  {"student_name":"Kabir","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"yes","quiz_score":92,"quiz_date":"2025-11-07","submission_date":"2025-11-07"},
+  {"student_name":"Meera","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"yes","quiz_score":81,"quiz_date":"2025-11-08","submission_date":"2025-11-09"},
+  {"student_name":"Rohit","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"no","quiz_score":65,"quiz_date":"2025-11-09","submission_date":null},
+  {"student_name":"Aisha","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"yes","quiz_score":79,"quiz_date":"2025-11-10","submission_date":"2025-11-10"},
+  {"student_name":"Dev","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"no","quiz_score":71,"quiz_date":"2025-11-11","submission_date":null},
+  {"student_name":"Tara","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"yes","quiz_score":90,"quiz_date":"2025-11-12","submission_date":"2025-11-12"},
+  {"student_name":"Varun","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"yes","quiz_score":86,"quiz_date":"2025-11-13","submission_date":"2025-11-13"},
+  {"student_name":"Nina","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"no","quiz_score":68,"quiz_date":"2025-11-14","submission_date":null},
+  {"student_name":"Arjun","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"yes","quiz_score":93,"quiz_date":"2025-11-18","submission_date":"2025-11-15"},
+  {"student_name":"Diya","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"no","quiz_score":77,"quiz_date":"2025-11-19","submission_date":null},
+
+  {"student_name":"Samar","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"yes","quiz_score":84,"quiz_date":"2025-11-20","submission_date":"2025-11-11"},
+  {"student_name":"Riya","grade":"Grade 7","class":"7A","region":"West","homework_submitted":"no","quiz_score":72,"quiz_date":"2025-11-05","submission_date":null},
+  {"student_name":"Kunal","grade":"Grade 7","class":"7A","region":"West","homework_submitted":"yes","quiz_score":80,"quiz_date":"2025-11-06","submission_date":"2025-11-06"},
+  {"student_name":"Anika","grade":"Grade 7","class":"7B","region":"West","homework_submitted":"no","quiz_score":66,"quiz_date":"2025-11-07","submission_date":null},
+  {"student_name":"Vikram","grade":"Grade 7","class":"7B","region":"West","homework_submitted":"yes","quiz_score":78,"quiz_date":"2025-11-08","submission_date":"2025-11-08"},
+  {"student_name":"Pooja","grade":"Grade 7","class":"7A","region":"West","homework_submitted":"yes","quiz_score":83,"quiz_date":"2025-11-10","submission_date":"2025-11-10"},
+  {"student_name":"Harsh","grade":"Grade 7","class":"7A","region":"West","homework_submitted":"no","quiz_score":70,"quiz_date":"2025-11-12","submission_date":null},
+  {"student_name":"Maya","grade":"Grade 7","class":"7B","region":"West","homework_submitted":"yes","quiz_score":88,"quiz_date":"2025-11-13","submission_date":"2025-11-13"},
+
+  {"student_name":"Alok","grade":"Grade 9","class":"9A","region":"North","homework_submitted":"no","quiz_score":69,"quiz_date":"2025-11-05","submission_date":null},
+  {"student_name":"Zara","grade":"Grade 9","class":"9A","region":"North","homework_submitted":"yes","quiz_score":91,"quiz_date":"2025-11-06","submission_date":"2025-11-06"},
+  {"student_name":"Imran","grade":"Grade 9","class":"9B","region":"North","homework_submitted":"yes","quiz_score":85,"quiz_date":"2025-11-09","submission_date":"2025-11-09"},
+  {"student_name":"Sana","grade":"Grade 9","class":"9B","region":"North","homework_submitted":"no","quiz_score":73,"quiz_date":"2025-11-11","submission_date":null},
+  {"student_name":"Kiran","grade":"Grade 9","class":"9A","region":"North","homework_submitted":"yes","quiz_score":89,"quiz_date":"2025-11-12","submission_date":"2025-11-12"},
+  {"student_name":"Tejas","grade":"Grade 9","class":"9B","region":"North","homework_submitted":"no","quiz_score":67,"quiz_date":"2025-11-14","submission_date":null},
+
+  {"student_name":"Neha","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"yes","quiz_score":82,"quiz_date":"2025-11-21","submission_date":"2025-11-13"},
+  {"student_name":"Rahul","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"yes","quiz_score":76,"quiz_date":"2025-11-03","submission_date":"2025-11-03"},
+  {"student_name":"Priti","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"no","quiz_score":64,"quiz_date":"2025-11-04","submission_date":null},
+  {"student_name":"Yash","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"yes","quiz_score":94,"quiz_date":"2025-11-09","submission_date":"2025-11-09"},
+  {"student_name":"Garima","grade":"Grade 8","class":"8A","region":"East","homework_submitted":"no","quiz_score":71,"quiz_date":"2025-11-16","submission_date":null},
+  {"student_name":"Sameer","grade":"Grade 8","class":"8B","region":"East","homework_submitted":"yes","quiz_score":88,"quiz_date":"2025-11-17","submission_date":"2025-11-17"},
+
+  {"student_name":"Rhea","grade":"Grade 7","class":"7A","region":"South","homework_submitted":"yes","quiz_score":79,"quiz_date":"2025-11-18","submission_date":"2025-11-18"},
+  {"student_name":"Om","grade":"Grade 7","class":"7B","region":"South","homework_submitted":"no","quiz_score":62,"quiz_date":"2025-11-19","submission_date":null},
+  {"student_name":"Aditya","grade":"Grade 9","class":"9A","region":"South","homework_submitted":"yes","quiz_score":90,"quiz_date":"2025-11-20","submission_date":"2025-11-20"},
+  {"student_name":"Lakshmi","grade":"Grade 9","class":"9B","region":"South","homework_submitted":"no","quiz_score":75,"quiz_date":"2025-11-21","submission_date":null}
+]
