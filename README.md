@@ -77,3 +77,7 @@ Try these in the app:
 ## Notes
 - This demo focuses on filtering, not aggregation. "Performance" is treated as quiz filtering; you can extend to compute stats.
 - Dates (last/this/next week) are resolved relative to the current date.
+- 
+## Screenshot
+  <img width="1802" height="1060" alt="image" src="https://github.com/user-attachments/assets/47fbd53b-3333-4fd7-b4ee-e90be1aa6494" />
+
