@@ -9,12 +9,20 @@ Features:
 """
 from __future__ import annotations
 import json
+import sys
+from pathlib import Path
+
+# Ensure project root is on sys.path so `import src.*` works regardless of CWD
+_ROOT = Path(__file__).resolve().parents[1]
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
+
 import streamlit as st
-from .config import ADMINS, get_admin_by_name, DATASET_PATH, OPENAI_API_KEY
-from .loader import load_students_dataset
-from .rbac import filter_by_admin_scope, Admin as RBACAdmin
-from .nlp_parser import parse_natural_language
-from .query_engine import apply_parsed_filters, build_filter_summary
+from src.config import ADMINS, get_admin_by_name, DATASET_PATH, OPENAI_API_KEY
+from src.loader import load_students_dataset
+from src.rbac import filter_by_admin_scope, Admin as RBACAdmin
+from src.nlp_parser import parse_natural_language
+from src.query_engine import apply_parsed_filters, build_filter_summary
 
 st.set_page_config(page_title="Dumroo Admin AI Query", layout="wide")
 st.title("Dumroo Admin - AI Query")

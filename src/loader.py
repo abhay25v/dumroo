@@ -32,7 +32,7 @@ def load_students_dataset(path: Optional[str] = None) -> pd.DataFrame:
     Returns:
         A pandas DataFrame with parsed dates and normalized dtypes.
     """
-    from .config import DATASET_PATH
+    from src.config import DATASET_PATH
 
     dataset_path = path or DATASET_PATH
     if not os.path.isfile(dataset_path):

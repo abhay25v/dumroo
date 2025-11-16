@@ -7,7 +7,7 @@ and returns a filtered DataFrame.
 from __future__ import annotations
 from typing import Dict, Any, Optional
 import pandas as pd
-from .nlp_parser import ParseResult
+from src.nlp_parser import ParseResult
 
 
 def _apply_date_range(df: pd.DataFrame, column: str, date_range: Dict[str, Any]) -> pd.DataFrame:

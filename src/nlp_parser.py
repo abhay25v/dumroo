@@ -17,14 +17,7 @@ from typing import Any, Dict, List, Optional
 from datetime import datetime, timedelta
 import pandas as pd
 
-try:
-    from langchain_openai import ChatOpenAI
-    from langchain.prompts import PromptTemplate
-    LANGCHAIN_AVAILABLE = True
-except Exception:  # pragma: no cover
-    LANGCHAIN_AVAILABLE = False
-
-from .config import OPENAI_API_KEY, OPENAI_MODEL
+from src.config import OPENAI_API_KEY, OPENAI_MODEL
 
 
 @dataclass
@@ -115,7 +108,14 @@ def _llm_enhance(text: str, seed: ParseResult) -> ParseResult:
     """Optionally enhance rule-based parse via LangChain + OpenAI.
     If no API key or library missing, returns seed.
     """
-    if not (OPENAI_API_KEY and LANGCHAIN_AVAILABLE):
+    if not OPENAI_API_KEY:
+        return seed
+
+    try:
+        # Lazy imports to avoid slowing down startup when LLM is unused
+        from langchain_openai import ChatOpenAI
+        from langchain.prompts import PromptTemplate
+    except Exception:
         return seed
 
     prompt_tmpl = PromptTemplate(

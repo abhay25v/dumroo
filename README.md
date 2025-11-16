@@ -36,6 +36,20 @@ $env:OPENAI_API_KEY = "<your_openai_api_key>"
 streamlit run src/app.py
 ```
 
+### Faster start
+- Use the venv binary directly to avoid PATH issues:
+```powershell
+.\.venv\Scripts\streamlit.exe run src/app.py
+```
+- One-liner helper script:
+```powershell
+./run.ps1
+```
+- Quick CLI validation (no UI):
+```powershell
+.\.venv\Scripts\python.exe src/quick_test.py "Which students haven’t submitted homework?"
+```
+
 ## Example Admins
 Defined in `src/config.py`:
 - `Amit`: Grade 8, classes 8A/8B, region East
@@ -54,7 +68,7 @@ Try these in the app:
 ## How It Works
 - `parse_natural_language()` returns a `ParseResult` with `intent`, `filters`, and optional `date_range` (last/this/next week)
 - `query_engine.apply_parsed_filters()` turns that into Pandas filtering over the RBAC-scoped DataFrame
-- If `OPENAI_API_KEY` is set, LangChain+OpenAI is used to refine the rule-based parse; otherwise parsing is deterministic
+- If `OPENAI_API_KEY` is set, LangChain+OpenAI is used to refine the rule-based parse; otherwise parsing is deterministic. LangChain is lazily imported only when used for faster startup.
 
 ## Swap Dataset Later
 - Place a compatible JSON at `dataset/students.json` or set the `DATASET_PATH` environment variable.
